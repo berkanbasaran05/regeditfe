@@ -1,3 +1,3 @@
 export const pageTitle = (title) => {
-  return ( document.title = title + " - Personal Portfolio React Template");
+  return ( document.title = title + " | RegeditBilisim");
 }

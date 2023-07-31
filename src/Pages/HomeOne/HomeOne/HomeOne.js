@@ -10,7 +10,7 @@ import Work from '../Work/Work';
 import { pageTitle } from '../../PageTitle';
 
 const HomeOne = () => {
-    pageTitle('Metier');
+    pageTitle('Anasayfa');
     return (
         <>
             <HeaderOne></HeaderOne>
