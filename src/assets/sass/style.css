@@ -4984,6 +4984,7 @@ Menu Bar
 }
 .header__area-box-logo a img {
   max-width: 180px;
+  height: 80px;
   z-index: 999;
   position: relative;
 }
