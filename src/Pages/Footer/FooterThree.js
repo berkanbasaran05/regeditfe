@@ -23,11 +23,10 @@ const FooterThree = () => {
                                     </div>
                                     <div className="footer__area-widget-about-menu three">
                                         <ul>
-                                            <li><Link to='/'>Home</Link></li>
-                                            <li><Link to='/services'>Services</Link></li>
-                                            <li><Link to='/news'>News</Link></li>
-                                            <li><Link to='/portfolio'>Portfolio</Link></li>
-                                            <li><Link to='/contact'>Contact</Link></li>
+                                            <li><Link to='/'>Anasayfa</Link></li>
+                                            <li><Link to='/'>Hizmetlerimiz</Link></li>
+                                            <li><Link to='/portfolio-two'>Ürünlerimiz</Link></li>
+                                            <li><Link to='/contact'>İletişim</Link></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -41,7 +40,7 @@ const FooterThree = () => {
                     <div className="row align-items-center copyright__area-border">
                         <div className="col-xl-12">
                             <div className="copyright__area-left t-center">
-                                <p>Copyright © 2023<a href="index.html"> ThemeOri</a> Website by Metier </p>
+                                <p> © 2023<a href="index.html"> RegeditBilisim</a>Tüm haklar saklıdır</p>
                             </div>
                         </div>
                     </div>

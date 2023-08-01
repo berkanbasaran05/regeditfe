@@ -4,12 +4,27 @@ Sponsors
 .sponsors__area {
     background: $text-color-8;
     padding: 56px 0;
+    justify-content: space-between;
+    height: 500px;
+    
+}
+.sponsors__area-brand{
+   
+
+    img{
+      
+        
+    }
+}
+.sponsors__area-title{
+    margin-bottom: 100px;
 }
 /*==========================================================================
 Clients
 ==========================================================================*/
 .client__area {
-    background: $text-color-8;
+    background: $text-color-1;
+ 
     padding-bottom: 150px;
     &-title {
         max-width: 620px;
@@ -20,7 +35,7 @@ Clients
         border: 1px solid $border3;
         padding: 50px;
         text-align: center;
-        height: 150px;
+        height: 50px;
         margin-top: 30px;
     }
 }

@@ -64,7 +64,7 @@ input[type=submit] {
   border: 1px solid #272A2A;
   border-color: transparent;
   border-radius: 0px;
-  background: #F94D1D;
+  background: #005BA4;
   color: #FFFFFF;
   line-height: 1;
   padding: 0.6em 1em 0.4em;
@@ -133,7 +133,7 @@ textarea:focus {
   color: #FFFFFF;
   outline: none;
   box-shadow: none;
-  border-color: #F94D1D;
+  border-color: #005BA4;
 }
 
 select {
@@ -275,7 +275,7 @@ Theme Btn CSS
 ==========================================================================*/
 .theme-btn,
 .theme-btn-1 {
-  background: #F94D1D;
+  background: #005BA4;
   color: #FFFFFF;
   display: inline-flex;
   font-size: 16px;
@@ -325,7 +325,6 @@ Theme Btn CSS
 }
 
 .theme-btn {
-  border-radius: 50px;
   width: 100%;
   justify-content: center;
   background: #000000;
@@ -338,7 +337,7 @@ Theme Btn CSS
 }
 
 .theme-btn-1 {
-  background: #F94D1D;
+  background: #005BA4;
 }
 .theme-btn-1:hover {
   color: #030404;
@@ -362,14 +361,14 @@ Theme Btn CSS
   margin-left: 8px;
 }
 .simple-btn:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 
 .subtitle {
   display: inline-block;
   position: relative;
   font-weight: 500;
-  color: #F94D1D;
+  color: #005BA4;
   text-transform: capitalize;
   z-index: 1;
   margin-bottom: 6px;
@@ -383,13 +382,13 @@ Theme Btn CSS
   left: 0;
   width: 50px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .subtitle.one {
-  color: #005BA4;
+  color: #F94D1D;
 }
 .subtitle.one::after {
-  background: #005BA4;
+  background: #F94D1D;
 }
 
 .subtitle-one {
@@ -397,7 +396,7 @@ Theme Btn CSS
   font-family: "Ubuntu", sans-serif;
   position: relative;
   font-weight: 600;
-  color: #F94D1D;
+  color: #005BA4;
   text-transform: capitalize;
   z-index: 1;
   margin-bottom: 6px;
@@ -525,7 +524,7 @@ Custom Cursor
   width: 30px;
   height: 30px;
   border-radius: 100%;
-  border: 2px solid #F94D1D;
+  border: 2px solid #005BA4;
   transition: all 200ms ease-out;
   position: fixed;
   pointer-events: none;
@@ -535,14 +534,14 @@ Custom Cursor
   z-index: 999999;
 }
 .custom__cursor-one.main {
-  border-color: #005BA4;
+  border-color: #F94D1D;
 }
 
 .custom__cursor-two {
   width: 6px;
   height: 6px;
   border-radius: 100%;
-  background: #F94D1D;
+  background: #005BA4;
   position: fixed;
   transform: translate(-50%, -50%);
   pointer-events: none;
@@ -550,17 +549,17 @@ Custom Cursor
   z-index: 999999;
 }
 .custom__cursor-two.main {
-  background: #005BA4;
+  background: #F94D1D;
 }
 
 .custom__cursor__hover {
-  background: #F94D1D;
+  background: #005BA4;
   opacity: 0.2;
   width: 70px;
   height: 70px;
 }
 .custom__cursor__hover.main {
-  background: #005BA4;
+  background: #F94D1D;
   opacity: 0.4;
 }
 
@@ -2258,7 +2257,7 @@ All Side Bar
   bottom: 0;
   height: 1px;
   width: 120px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .all__sidebar-item-category ul {
   padding: 0;
@@ -2282,7 +2281,7 @@ All Side Bar
   top: 2px;
 }
 .all__sidebar-item-category ul li a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .all__sidebar-item-category ul li:last-child a {
   margin: 0;
@@ -2306,7 +2305,7 @@ All Side Bar
   left: 0;
   width: 30px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .all__sidebar-item.details {
   margin-left: 40px;
@@ -2339,7 +2338,7 @@ All Side Bar
   color: #FFFFFF;
   width: 60px;
   bottom: 0;
-  background: #F94D1D;
+  background: #005BA4;
   display: inline-block;
 }
 .all__sidebar-item-post-item {
@@ -2367,7 +2366,7 @@ All Side Bar
   line-height: 24px;
 }
 .all__sidebar-item-post-item-content span i {
-  color: #F94D1D;
+  color: #005BA4;
   margin-right: 10px;
 }
 .all__sidebar-item-post-item-content h5 a {
@@ -2375,7 +2374,7 @@ All Side Bar
   display: inline-block;
 }
 .all__sidebar-item-post-item-content h5 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .all__sidebar-item-post-item:last-child {
   margin: 0;
@@ -2394,7 +2393,7 @@ All Side Bar
   color: #9FA0A1;
 }
 .all__sidebar-item-tag ul li a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .all__sidebar-item-help {
   position: relative;
@@ -2436,7 +2435,7 @@ All Side Bar
   text-align: center;
   border-radius: 50%;
   background: #FFFFFF;
-  color: #F94D1D;
+  color: #005BA4;
 }
 .all__sidebar-item-help-contact-content span {
   color: #6F7173;
@@ -2449,7 +2448,7 @@ All Side Bar
   transition: all 0.3s ease-out 0s;
 }
 .all__sidebar-item-help-contact-content h6 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 
 @media (max-width: 1399px) {
@@ -2503,7 +2502,6 @@ Banner
   padding-bottom: 130px;
 }
 .banner__area-content h1 {
-  margin-left: 70px;
   font-size: 120px;
   line-height: 130px;
   margin-bottom: 60px;
@@ -2550,8 +2548,8 @@ Banner
   text-align: center;
 }
 .banner__area-bottom-icon ul li a i:hover {
-  background: #005BA4;
-  border-color: #005BA4;
+  background: #F94D1D;
+  border-color: #F94D1D;
 }
 
 /*==========================================================================
@@ -2572,7 +2570,7 @@ Banner Two
 .banner__area-two-content span {
   font-family: "Ubuntu", sans-serif;
   font-weight: 500;
-  color: #F94D1D;
+  color: #005BA4;
   margin-bottom: 15px;
   display: inline-block;
   position: relative;
@@ -2585,7 +2583,7 @@ Banner Two
   left: 0;
   width: 50px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .banner__area-two-content h1 {
   font-size: 150px;
@@ -2613,7 +2611,7 @@ Banner Two
   transition: all 0.3s ease-out 0s;
 }
 .banner__area-two-bottom-icon ul li a i:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 
 /*==========================================================================
@@ -2666,8 +2664,8 @@ Banner Three
   text-align: center;
 }
 .banner__area-three-bottom-icon ul li a i:hover {
-  background: #F94D1D;
-  border-color: #F94D1D;
+  background: #005BA4;
+  border-color: #005BA4;
 }
 
 @media (max-width: 1700px) {
@@ -2781,7 +2779,7 @@ Banner Three
 About Page
 ==========================================================================*/
 .about__page {
-  background: #121717;
+  background: #030404;
 }
 .about__page-title {
   max-width: 600px;
@@ -2846,7 +2844,7 @@ About Page
 Blog
 ==========================================================================*/
 .blog__area {
-  background: #121717;
+  background: #030404;
 }
 .blog__area-title {
   text-align: center;
@@ -2891,11 +2889,11 @@ Blog
   font-weight: 500;
 }
 .blog__area-item-content-meta ul li a i::before {
-  color: #F94D1D;
+  color: #005BA4;
   margin-right: 10px;
 }
 .blog__area-item-content-meta ul li a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .blog__area-item-content h4 {
   margin-bottom: 20px;
@@ -2904,20 +2902,20 @@ Blog
   transition: all 0.4s ease-out 0s;
 }
 .blog__area-item-content h4 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .blog__area-item-content .simple-btn {
   color: #9FA0A1;
 }
 .blog__area-item-content .simple-btn:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 
 /*==========================================================================
 Blog Standard
 ==========================================================================*/
 .blog__standard {
-  background: #121717;
+  background: #030404;
 }
 .blog__standard-item {
   margin-bottom: 50px;
@@ -2951,11 +2949,11 @@ Blog Standard
   transition: all 0.4s ease-out 0s;
 }
 .blog__standard-item-meta ul li a i {
-  color: #F94D1D;
+  color: #005BA4;
   margin-right: 10px;
 }
 .blog__standard-item-meta ul li a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .blog__standard-item-meta ul li:last-child {
   margin: 0;
@@ -2969,14 +2967,14 @@ Blog Standard
   transition: all 0.4s ease-out 0s;
 }
 .blog__standard-item-content h3 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 
 /*==========================================================================
 Blog Details
 ==========================================================================*/
 .blog__details {
-  background: #121717;
+  background: #030404;
 }
 .blog__details-left-meta {
   padding: 30px 0 25px 0;
@@ -2997,11 +2995,11 @@ Blog Details
   transition: all 0.4s ease-out 0s;
 }
 .blog__details-left-meta ul li a i {
-  color: #F94D1D;
+  color: #005BA4;
   margin-right: 10px;
 }
 .blog__details-left-meta ul li a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .blog__details-left-meta ul li:last-child {
   margin: 0;
@@ -3039,7 +3037,7 @@ Blog Details
   height: 2px;
   left: 0;
   top: 14px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .blog__details-left-related {
   margin: 70px 0;
@@ -3064,7 +3062,7 @@ Blog Details
   color: #9FA0A1;
 }
 .blog__details-left-related-tag ul li a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .blog__details-left-related-share ul {
   padding: 0;
@@ -3079,7 +3077,7 @@ Blog Details
   transition: all 0.3s ease-out 0s;
 }
 .blog__details-left-related-share ul li a i:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .blog__details-left-related-share ul li:last-child {
   margin: 0;
@@ -3138,9 +3136,9 @@ Blog Details
   margin-right: 10px;
 }
 .blog__details-left-comment-item-comment-content h5 a:hover {
-  background: #F94D1D;
+  background: #005BA4;
   color: #FFFFFF;
-  border-color: #F94D1D;
+  border-color: #005BA4;
 }
 .blog__details-left-contact-form-item {
   position: relative;
@@ -3149,7 +3147,7 @@ Blog Details
   position: absolute;
   right: 20px;
   top: 23px;
-  color: #F94D1D;
+  color: #005BA4;
 }
 .blog__details-left-contact-form-item input {
   font-size: 14px;
@@ -3253,7 +3251,7 @@ Faq CSS
 Contact
 ==========================================================================*/
 .contact__area {
-  background: #121717;
+  background: #030404;
 }
 .contact__area ::-webkit-scrollbar {
   display: none;
@@ -3281,7 +3279,7 @@ Contact
   color: #9FA0A1;
 }
 .contact__area-bottom-form-item label input {
-  accent-color: #F94D1D;
+  accent-color: #005BA4;
 }
 .contact__area-bottom-form-item textarea {
   color: #9FA0A1;
@@ -3295,7 +3293,7 @@ Contact
   resize: none;
 }
 .contact__area-bottom-form-item textarea:focus {
-  border-color: #F94D1D;
+  border-color: #005BA4;
 }
 .contact__area-bottom-form.page {
   top: -350px;
@@ -3327,7 +3325,7 @@ Contact
   transition: all 0.4s ease-out 0s;
 }
 .contact__area-info-item-content a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .contact__area-info-item:last-child {
   margin: 0;
@@ -3378,7 +3376,7 @@ Features
   width: 100%;
   transition: all 0.4s ease-out 0s;
   height: 0;
-  background: #005BA4;
+  background: #F94D1D;
   z-index: 0;
   opacity: 0;
 }
@@ -3457,7 +3455,7 @@ Features Two
   color: #6F7173;
 }
 .features__area-two-item .simple-btn:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .features__area-two-item.active {
   background: #0F1212;
@@ -3543,13 +3541,13 @@ Footer
   border-radius: 50%;
 }
 .footer__area-widget-about-social ul li a i:hover {
-  background: #005BA4;
-  border-color: #005BA4;
+  background: #F94D1D;
+  border-color: #F94D1D;
   color: #FFFFFF;
 }
 .footer__area-widget-about-social.three ul li a i:hover {
-  background: #F94D1D;
-  border-color: #F94D1D;
+  background: #005BA4;
+  border-color: #005BA4;
 }
 .footer__area-widget-about-menu {
   margin-top: 30px;
@@ -3574,13 +3572,13 @@ Footer
   line-height: 28px;
 }
 .footer__area-widget-about-menu ul li a:hover {
-  color: #005BA4;
+  color: #F94D1D;
 }
 .footer__area-widget-about-menu.three ul li a {
   color: #6F7173;
 }
 .footer__area-widget-about-menu.three ul li a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .footer__area-widget-menu ul {
   padding: 0;
@@ -3598,7 +3596,7 @@ Footer
 .footer__area-widget-menu ul li a::after {
   position: absolute;
   content: "";
-  background: #F94D1D;
+  background: #005BA4;
   width: 0;
   transition: all 0.4s ease-out 0s;
   opacity: 0;
@@ -3608,7 +3606,7 @@ Footer
 }
 .footer__area-widget-menu ul li a:hover {
   padding-left: 25px;
-  color: #F94D1D;
+  color: #005BA4;
 }
 .footer__area-widget-menu ul li a:hover::after {
   width: 15px;
@@ -3618,10 +3616,10 @@ Footer
   margin: 0;
 }
 .footer__area-widget-menu.one ul li a::after {
-  background: #005BA4;
+  background: #F94D1D;
 }
 .footer__area-widget-menu.one ul li a:hover {
-  color: #005BA4;
+  color: #F94D1D;
 }
 .footer__area-widget-subscribe {
   background: #030404;
@@ -3654,10 +3652,10 @@ Footer
   position: relative;
 }
 .footer__area-widget-subscribe.one form input:focus {
-  border-color: #005BA4;
+  border-color: #F94D1D;
 }
 .footer__area-widget-subscribe.one form button {
-  background: #005BA4;
+  background: #F94D1D;
 }
 
 /*==========================================================================
@@ -3684,7 +3682,7 @@ Copyright
   color: #FFFFFF;
 }
 .copyright__area-left p a {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .copyright__area-right ul {
   padding: 0;
@@ -3702,7 +3700,7 @@ Copyright
   transition: all 0.3s ease-out 0s;
 }
 .copyright__area-right ul li a i:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 
 /*==========================================================================
@@ -3715,7 +3713,7 @@ Copyright One
   font-size: 12px;
 }
 .copyright__area-one-left p a {
-  color: #005BA4;
+  color: #F94D1D;
 }
 
 @media (max-width: 991px) {
@@ -3749,15 +3747,21 @@ Copyright One
 Sponsors
 ==========================================================================*/
 .sponsors__area {
-  background: #121717;
+  background: #030404;
   padding: 56px 0;
+  justify-content: space-between;
+  height: 500px;
+}
+
+.sponsors__area-title {
+  margin-bottom: 100px;
 }
 
 /*==========================================================================
 Clients
 ==========================================================================*/
 .client__area {
-  background: #121717;
+  background: #030404;
   padding-bottom: 150px;
 }
 .client__area-title {
@@ -3769,7 +3773,7 @@ Clients
   border: 1px solid #272A2A;
   padding: 50px;
   text-align: center;
-  height: 150px;
+  height: 50px;
   margin-top: 30px;
 }
 
@@ -3777,7 +3781,7 @@ Clients
 Portfolio
 ==========================================================================*/
 .portfolio__area {
-  background: #121717;
+  background: #030404;
 }
 .portfolio__area-item-image {
   position: relative;
@@ -3821,7 +3825,7 @@ Portfolio
   left: 0;
   width: 30px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .portfolio__area-item-image-content h4 a {
   display: block;
@@ -3829,7 +3833,7 @@ Portfolio
   transition: all 0.4s ease-out 0s;
 }
 .portfolio__area-item-image-content h4 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .portfolio__area-item:hover .portfolio__area-item-image::before {
   opacity: 1;
@@ -3843,7 +3847,7 @@ Portfolio
 Portfolio Two
 ==========================================================================*/
 .portfolio__area-two {
-  background: #121717;
+  background: #030404;
 }
 .portfolio__area-two-title {
   text-align: center;
@@ -3876,7 +3880,7 @@ Portfolio Two
   left: 0;
   width: 30px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .portfolio__area-two-item-content h4 a {
   display: block;
@@ -3884,7 +3888,7 @@ Portfolio Two
   transition: all 0.4s ease-out 0s;
 }
 .portfolio__area-two-item-content h4 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .portfolio__area-two-item:hover .portfolio__area-two-item-content {
   opacity: 1;
@@ -3908,15 +3912,15 @@ Portfolio Two
   background: none;
 }
 .portfolio__area-two-btn button.active {
-  color: #F94D1D;
-  border-bottom: 2px solid #F94D1D;
+  color: #005BA4;
+  border-bottom: 2px solid #005BA4;
 }
 
 /*==========================================================================
 Portfolio Column
 ==========================================================================*/
 .portfolio__column {
-  background: #121717;
+  background: #030404;
 }
 .portfolio__column-item {
   position: relative;
@@ -3947,7 +3951,7 @@ Portfolio Column
   left: 0;
   width: 30px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .portfolio__column-item-content h4 a {
   display: block;
@@ -3955,7 +3959,7 @@ Portfolio Column
   transition: all 0.4s ease-out 0s;
 }
 .portfolio__column-item-content h4 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .portfolio__column-item:hover .portfolio__column-item-content {
   opacity: 1;
@@ -3966,7 +3970,7 @@ Portfolio Column
 Portfolio Column Two
 ==========================================================================*/
 .portfolio__column-two {
-  background: #121717;
+  background: #030404;
 }
 .portfolio__column-two-item {
   position: relative;
@@ -3997,7 +4001,7 @@ Portfolio Column Two
   left: 0;
   width: 30px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .portfolio__column-two-item-content h4 a {
   display: block;
@@ -4005,7 +4009,7 @@ Portfolio Column Two
   transition: all 0.4s ease-out 0s;
 }
 .portfolio__column-two-item-content h4 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .portfolio__column-two-item:hover .portfolio__column-two-item-content {
   opacity: 1;
@@ -4016,7 +4020,7 @@ Portfolio Column Two
 Portfolio Details
 ==========================================================================*/
 .portfolio__details {
-  background: #121717;
+  background: #030404;
 }
 .portfolio__details-left h2 {
   max-width: 600px;
@@ -4028,7 +4032,7 @@ Portfolio Details
 }
 
 .portfolio__details-two {
-  background: #121717;
+  background: #030404;
 }
 .portfolio__details-two-left-content p {
   max-width: 373px;
@@ -4055,7 +4059,7 @@ Portfolio Details
   left: 0;
   width: 30px;
   height: 1px;
-  background: #F94D1D;
+  background: #005BA4;
 }
 .portfolio__details-two-left-details-list:last-child {
   margin: 0;
@@ -4091,7 +4095,7 @@ Portfolio Details
     margin-top: 30px;
   }
   .portfolio__details-two {
-    background: #121717;
+    background: #030404;
   }
   .portfolio__details-two-left-content p {
     max-width: none;
@@ -4099,7 +4103,7 @@ Portfolio Details
 }
 @media (max-width: 575px) {
   .portfolio__area {
-    background: #121717;
+    background: #030404;
   }
   .portfolio__area-item-image-content {
     bottom: 30px;
@@ -4153,7 +4157,7 @@ Services
   background-size: cover;
 }
 .services__area-item {
-  background: #121717;
+  background: #030404;
   padding: 50px;
   position: relative;
   margin-top: 30px;
@@ -4232,7 +4236,7 @@ Services
 Services Page
 ==========================================================================*/
 .services__page {
-  background: #121717;
+  background: #030404;
 }
 .services__page-item {
   background: #030404;
@@ -4262,7 +4266,7 @@ Services Page
 .services__page-item-left-icon::after {
   content: "";
   position: absolute;
-  background: #F94D1D;
+  background: #005BA4;
   width: 0;
   height: 0;
   border-radius: 50%;
@@ -4283,7 +4287,7 @@ Services Page
   transition: all 0.4s ease-out 0s;
 }
 .services__page-item-left-content h4 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .services__page-item-center p {
   max-width: 370px;
@@ -4300,8 +4304,8 @@ Services Page
   transition: all 0.4s ease-out 0s;
 }
 .services__page-item-right a i:hover {
-  color: #F94D1D;
-  border-color: #F94D1D;
+  color: #005BA4;
+  border-color: #005BA4;
 }
 .services__page-item:hover .services__area-item-icon-one {
   opacity: 1;
@@ -4318,7 +4322,7 @@ Services Page
 Services Details
 ==========================================================================*/
 .services__details {
-  background: #121717;
+  background: #030404;
 }
 
 /*==========================================================================
@@ -4677,7 +4681,7 @@ Skill Twp
 Team
 ==========================================================================*/
 .team__area {
-  background: #121717;
+  background: #030404;
   padding-bottom: 150px;
 }
 .team__area-border {
@@ -4745,8 +4749,8 @@ Team
   border-radius: 50%;
 }
 .team__area-item-image-social ul li a i:hover {
-  background: #F94D1D;
-  border-color: #F94D1D;
+  background: #005BA4;
+  border-color: #005BA4;
 }
 .team__area-item-content {
   text-align: center;
@@ -4787,10 +4791,11 @@ Team
 Reviews
 ==========================================================================*/
 .reviews__area {
-  background: #121717;
+  background: #030404;
   position: relative;
   padding-bottom: 210px;
   background-position: center;
+  height: 500px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -4805,7 +4810,7 @@ Reviews
   max-width: 420px;
   margin-top: 30px;
   padding-top: 30px;
-  border-top: 1px solid #121717;
+  border-top: 1px solid #030404;
 }
 .reviews__area-left-item-client {
   margin-top: 30px;
@@ -4838,7 +4843,7 @@ Reviews
 }
 .reviews__area-left .swiper-pagination .swiper-pagination-bullet {
   border-radius: 50%;
-  background: #F94D1D;
+  background: #005BA4;
   width: 8px;
   height: 8px;
   transition: all 0.4s ease-out 0s;
@@ -4852,7 +4857,7 @@ Reviews
   content: "";
   width: 24px;
   height: 24px;
-  border: 1px solid #F94D1D;
+  border: 1px solid #005BA4;
   top: 50%;
   border-radius: 50%;
   left: 50%;
@@ -4867,7 +4872,7 @@ Reviews
 Feedback
 ==========================================================================*/
 .feedback__area {
-  background: #121717;
+  background: #030404;
 }
 .feedback__area-title {
   max-width: 620px;
@@ -4901,7 +4906,7 @@ Feedback
   margin-right: 4.4px;
 }
 .feedback__area-item-reviews ul li a i {
-  color: #F94D1D;
+  color: #005BA4;
   font-size: 14px;
 }
 .feedback__area-item-bottom {
@@ -4968,7 +4973,7 @@ Menu Bar
   left: 0;
   right: 0;
   width: 100%;
-  background: #FFFFFF;
+  background: transparent;
   opacity: 0.15;
   z-index: 1;
   height: 1px;
@@ -5000,7 +5005,7 @@ Menu Bar
   width: 160px;
   height: 190px;
   border-radius: 60px;
-  background: #121717;
+  background: #030404;
   z-index: 2;
 }
 .header__area-box-logo.center a img {
@@ -5016,13 +5021,13 @@ Menu Bar
   color: #005BA4;
 }
 .header__area-box-main-menu.one ul li ul .sub-menu li .sub-menu {
-  color: #005BA4;
+  color: #F94D1D;
 }
 .header__area-box-main-menu.one ul li.menu-item-has-children:hover > a::after {
-  background: #005BA4;
+  background: #F94D1D;
 }
 .header__area-box-main-menu.one .mobile-menu-toggle {
-  background: #005BA4;
+  background: #F94D1D;
 }
 .header__area-box-menu {
   display: flex;
@@ -5046,7 +5051,7 @@ Menu Bar
   text-align: center;
   border-radius: 50%;
   border: 1px solid #6F7173;
-  color: #F94D1D;
+  color: #005BA4;
 }
 .header__area-box-contact-content span {
   color: #9FA0A1;
@@ -5057,7 +5062,7 @@ Menu Bar
   transition: all 0.4s ease-out 0s;
 }
 .header__area-box-contact-content h6 a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .header__area.three {
   padding: 51px 50px;
@@ -5067,7 +5072,7 @@ Menu Bar
 }
 .header__area.all-page {
   position: relative;
-  background: #121717;
+  background: #030404;
 }
 
 @media screen and (min-width: 992px) {
@@ -5083,7 +5088,7 @@ Menu Bar
     margin: 0;
   }
   .header__area-box-main-menu ul li:hover > a {
-    color: #F94D1D;
+    color: #005BA4;
   }
   .header__area-box-main-menu ul li:hover > .sub-menu {
     opacity: 1;
@@ -5124,7 +5129,7 @@ Menu Bar
   .header__area-box-main-menu ul li .sub-menu li a::after {
     position: absolute;
     content: "";
-    background: #F94D1D;
+    background: #005BA4;
     width: 2px;
     transition: all 0.5s ease-out 0s;
     height: 0;
@@ -5137,7 +5142,7 @@ Menu Bar
     top: 0;
   }
   .header__area-box-main-menu ul li .sub-menu li:hover > a {
-    color: #F94D1D;
+    color: #005BA4;
     padding-left: 25px;
   }
   .header__area-box-main-menu ul li .sub-menu li:hover > a::after {
@@ -5147,7 +5152,7 @@ Menu Bar
     border: none;
   }
   .header__area-box-main-menu ul li ul .sub-menu li .sub-menu {
-    color: #F94D1D;
+    color: #005BA4;
     cursor: pointer;
   }
   .header__area-box-main-menu ul li a {
@@ -5190,7 +5195,7 @@ Menu Bar
     opacity: 0;
   }
   .header__area-box-main-menu ul li.menu-item-has-children:hover > a::after {
-    background: #F94D1D;
+    background: #005BA4;
   }
   .mobile__menu {
     display: flex !important;
@@ -5269,7 +5274,7 @@ Menu Box CSS
   transform: rotate(0);
 }
 .header__area-box-sidebar-popup .sidebar-close-btn i::before {
-  background: #F94D1D;
+  background: #005BA4;
   width: 40px;
   color: #FFFFFF;
   height: 40px;
@@ -5317,7 +5322,7 @@ Menu Box CSS
   font-size: 25px;
 }
 .header__area-box-sidebar-popup-menu ul li:hover > a {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .header__area-box-sidebar-popup-menu ul li .sub-menu {
   padding-left: 15px;
@@ -5339,14 +5344,14 @@ Menu Box CSS
   color: #9FA0A1;
 }
 .header__area-box-sidebar-popup-contact-form-item input:focus {
-  border-color: #005BA4;
+  border-color: #F94D1D;
 }
 .header__area-box-sidebar-popup-contact-form-item textarea {
   background: transparent;
   color: #9FA0A1;
 }
 .header__area-box-sidebar-popup-contact-form-item textarea:focus {
-  border-color: #005BA4;
+  border-color: #F94D1D;
 }
 .header__area-box-sidebar-popup-contact-form-item button i {
   position: initial;
@@ -5357,7 +5362,7 @@ Menu Box CSS
   color: #030404;
 }
 .header__area-box-sidebar-popup-contact-form-item.two input:focus, .header__area-box-sidebar-popup-contact-form-item.two textarea:focus {
-  border-color: #F94D1D;
+  border-color: #005BA4;
 }
 .header__area-box-sidebar-popup-follow-us-social ul {
   padding: 0;
@@ -5389,10 +5394,10 @@ Menu Box CSS
 }
 .header__area-box-sidebar-popup-follow-us-social ul li a:hover i {
   color: #FFFFFF;
-  background: #005BA4;
+  background: #F94D1D;
 }
 .header__area-box-sidebar-popup-follow-us-social.two ul li a:hover i {
-  background: #F94D1D;
+  background: #005BA4;
 }
 
 .contact__info {
@@ -5409,7 +5414,7 @@ Menu Box CSS
   margin: 0;
 }
 .contact__info-list a i {
-  color: #F94D1D;
+  color: #005BA4;
   display: block;
   width: 40px;
   line-height: 40px;
@@ -5420,7 +5425,7 @@ Menu Box CSS
   margin-right: 20px;
 }
 .contact__info-list a:hover {
-  color: #F94D1D;
+  color: #005BA4;
 }
 
 .sidebar-overlay {
@@ -5471,7 +5476,7 @@ Menu Bar Three
   transition: all 0.4s ease;
 }
 .side__menu li:hover > a {
-  color: #F94D1D;
+  color: #005BA4;
 }
 .side__menu ul {
   padding: 0;
@@ -5513,7 +5518,7 @@ Menu Bar Three
     width: 57px;
     right: 0;
     top: 0;
-    background: #F94D1D;
+    background: #005BA4;
     cursor: pointer;
   }
   .mobile-menu-toggle:before, .mobile-menu-toggle:after {
@@ -5649,7 +5654,7 @@ Menu Bar Three
     width: 160px;
     height: 190px;
     border-radius: 60px;
-    background: #121717;
+    background: #030404;
     z-index: 2;
   }
   .header__area-box-logo.center a img {
@@ -5686,7 +5691,7 @@ Menu Bar Three
   }
 }
 .error__page {
-  background: #121717;
+  background: #030404;
   height: 100vh;
   position: relative;
 }
@@ -5725,9 +5730,9 @@ Pagination
   margin: 0;
 }
 .pagination ul li .active {
-  background: #F94D1D;
+  background: #005BA4;
   color: #FFFFFF;
-  border-color: #F94D1D;
+  border-color: #005BA4;
 }
 .pagination ul li a {
   color: #6F7173;
@@ -5742,9 +5747,9 @@ Pagination
   transition: all 0.4s ease-in-out;
 }
 .pagination ul li a:hover {
-  background: #F94D1D;
+  background: #005BA4;
   color: #FFFFFF;
-  border-color: #F94D1D;
+  border-color: #005BA4;
 }
 
 @media (max-width: 1399px) {

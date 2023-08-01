@@ -5,17 +5,22 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 const Sponsors = () => {
     return (
         <div className="sponsors__area">
+            
             <div className="container">
+            <div className="sponsors__area-title lg-t-center"> 
+                            <span className="subtitle">İş Ortaklarımız</span>
+                            <h2>Referanslarımızdan Bazıları</h2> 
+                        </div>
                 <div className="row">
-                    <div className="col-xl-6"></div>
-                    <div className="col-xl-6">
+                    
+                   
                         <Swiper
                             slidesPerView={3}
                             loop={true}
-                            spaceBetween= {120}
+                            spaceBetween= {30}
                             breakpoints={{
                                 0: {
-                                    spaceBetween: 50,
+                                    spaceBetween: 20,
                                     slidesPerView: 2
                                 },
                                 575: {
@@ -30,20 +35,23 @@ const Sponsors = () => {
                                 },
                             }}
                         >
-                            <SwiperSlide className="sponsors__area-brand swiper-slide">
-                                <Link to="#"><img src="assets/img/brand-1.png" alt="" /></Link>
+                            <SwiperSlide className="sponsors__area-brand ">
+                                <Link to="#"><img src="https://www.doyuyo.com/wp-content/uploads/2023/01/doyuyo_logo.png" alt="" /></Link>
                             </SwiperSlide>
-                            <SwiperSlide className="sponsors__area-brand swiper-slide">
-                                <Link to="#"><img src="assets/img/brand-2.png" alt="" /></Link>
+                            <SwiperSlide className="sponsors__area-brand ">
+                                <Link to="#"><img src="https://www.doyuyo.com/wp-content/uploads/2023/01/doyuyo_logo.png" alt="" /></Link>
                             </SwiperSlide>
-                            <SwiperSlide className="sponsors__area-brand swiper-slide">
-                                <Link to="#"><img src="assets/img/brand-3.png" alt="" /></Link>
+                            <SwiperSlide className="sponsors__area-brand ">
+                                <Link to="#"><img src="https://www.doyuyo.com/wp-content/uploads/2023/01/doyuyo_logo.png" alt="" /></Link>
                             </SwiperSlide>
-                            <SwiperSlide className="sponsors__area-brand swiper-slide">
-                                <Link to="#"><img src="assets/img/brand-4.png" alt="" /></Link>
+                            <SwiperSlide className="sponsors__area-brand ">
+                                <Link to="#"><img src="https://www.doyuyo.com/wp-content/uploads/2023/01/doyuyo_logo.png" alt="" /></Link>
+                            </SwiperSlide>
+                            <SwiperSlide className="sponsors__area-brand ">
+                                <Link to="#"><img src="https://www.doyuyo.com/wp-content/uploads/2023/01/doyuyo_logo.png" alt="" /></Link>
                             </SwiperSlide>
                         </Swiper>
-                    </div>
+                   
                 </div>
             </div>
         </div>

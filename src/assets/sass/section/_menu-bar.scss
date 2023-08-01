@@ -15,7 +15,7 @@ Menu Bar
         left: 0;
         right: 0;
         width: 100%;
-        background: $white;
+        background: transparent;
         opacity: 0.15;
         z-index: 1;
         height: 1px;
@@ -61,17 +61,17 @@ Menu Bar
                 ul {
                     li {
                         &:hover > a {
-                            color: $primary-color-1;
+                            color: $primary-color;
                         }
                         .sub-menu {
                             li {
                                 a {
                                     &::after {
-                                        background: $primary-color-1;
+                                        background: $primary-color;
                                     }
                                 }
                                 &:hover > a {
-                                    color: $primary-color-1;
+                                    color: $primary-color;
                                 }
                             }
                         }
@@ -371,7 +371,7 @@ Menu Box CSS
         &.one {
             i {
                 &::before {
-                    background: $primary-color-1;
+                    background: $primary-color;
                 }
             }            
         }

@@ -30,9 +30,9 @@ function App() {
         <>
             {loader && <Preloader />}
             <Router><Routes>
-                <Route path="/" element={<HomeOne />} />
+                <Route path="/" element={<HomeThree />} />
                 <Route path="/home-two" element={<HomeTwo />} />
-                <Route path="/home-three" element={<HomeThree />} />
+                <Route path="/home-three" element={<HomeOne />} />
                 <Route path="/about" element={<AboutPage />} />
                 <Route path="/services" element={<ServicesPage />} />
                 <Route path="/services-details" element={<ServicesDetails />} />

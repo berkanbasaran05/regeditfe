@@ -56,8 +56,8 @@ const ProjectStyleTwoItem = ({ image }) => {
                 <div className="portfolio__area-two-item"> 
                     <img className="img__full" src={image} alt="" />
 					<div className="portfolio__area-two-item-content"> 
-                        <span>Photography</span>
-						<h4><Link to="/portfolio-details">Photography</Link></h4> 
+                        <span>POS Cihazı</span>
+						<h4><Link to="/portfolio-details">Yazıcı</Link></h4> 
                     </div>
 				</div>
             </div>
@@ -88,16 +88,16 @@ const PortfolioFilter = () => {
                 <div className="row">
                     <div className="col-xl-12 mb-30">
                         <div className="portfolio__area-two-title"> 
-                            <span className="subtitle-one">Portfolio</span>
-                            <h2>Create Portfolio</h2> 
+                            <span className="subtitle-one">Ürünlerimiz</span>
+                            <h2>Ürünlerimizi Keşfet</h2> 
                         </div>
                         <div className="portfolio__area-two-btn">
-                            <CategoryBtn className={category === 'all' ? 'active' : null} name="all" label="Show All" handleSetCategory={setCategory}/>
-                            <CategoryBtn className={category === 'design' ? 'active' : null} name="design" label="Design" handleSetCategory={setCategory} />
-                            <CategoryBtn className={category === 'development' ? 'active' : null} name="development" label="Development" handleSetCategory={setCategory} />
-                            <CategoryBtn className={category === 'marketing' ? 'active' : null} name="marketing" label="Marketing" handleSetCategory={setCategory} />
-                            <CategoryBtn className={category === 'strategy' ? 'active' : null} name="strategy" label="Strategy" handleSetCategory={setCategory} />
-                            <CategoryBtn className={category === 'branding' ? 'active' : null} name="branding" label="Branding" handleSetCategory={setCategory} />
+                            <CategoryBtn className={category === 'all' ? 'active' : null} name="all" label="Tüm Ürünlerimiz" handleSetCategory={setCategory}/>
+                            <CategoryBtn className={category === 'design' ? 'active' : null} name="design" label="POS Cihazı" handleSetCategory={setCategory} />
+                            <CategoryBtn className={category === 'development' ? 'active' : null} name="development" label="Yazıcı" handleSetCategory={setCategory} />
+                            <CategoryBtn className={category === 'marketing' ? 'active' : null} name="marketing" label="Barcode Scanner" handleSetCategory={setCategory} />
+                            <CategoryBtn className={category === 'strategy' ? 'active' : null} name="strategy" label="Kiosk" handleSetCategory={setCategory} />
+                            <CategoryBtn className={category === 'branding' ? 'active' : null} name="branding" label="Yazarkasa" handleSetCategory={setCategory} />
                         </div>
                     </div>
                 </div>

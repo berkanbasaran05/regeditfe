@@ -2,27 +2,62 @@ import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Down from "./Down";
 import { Home, News, Page, Portfolio } from "./Menu";
+import DropDown from './DropDown';
 
 const HeaderThree = ({variant}) => {
     const [sideHeaderToggle, setSideHeaderToggle] = useState(false);   
     const [isSticky, setIsSticky] = useState(false);
+    const [mobileisSticky, mobilesetIsSticky] = useState(false);
     useEffect(() => {
       window.addEventListener("scroll", () => {
         if (window.scrollY > 0) {
-          setIsSticky(true);
+          mobilesetIsSticky(true);
         } else {
-          setIsSticky(false);
+          mobilesetIsSticky(false);
         }
       });
+    }, []);
+    const [mobileToggle, setMobileToggle] = useState(false);
+    useEffect(() => {
+        window.addEventListener("scroll", () => {
+        if (window.scrollY > 0) {
+            setIsSticky(true);
+        } else {
+            setIsSticky(false);
+        }
+        });
     }, []);
 
     return (
         <>
-        <div className={`header__area three ${ variant ? variant : "" } header__sticky ${isSticky ? "header__sticky-active" : ""}`}>
+        <div className={`header__area  ${ variant ? variant : "" } header__sticky ${isSticky ? "header__sticky-active" : ""}`}>
             <div className="container custom-container">
                 <div className="header__area-box">
                     <div className="header__area-box-logo">
                         <Link to="/"> <img src="assets/img/logo-2.png" alt="" /> </Link>
+                    </div>
+                    <div className="header__area-box-main-menu one">
+                        <ul className="mobile__menu" style={{ display: `${mobileToggle ? "block" : "none"}` }}>
+                            <li className="">
+                                <Link to="/">Anasayfa</Link>
+                               
+                            </li>
+                            <li className="menu-item-has-children">
+                                <Link to="">Page</Link>
+                                <DropDown>
+                                    <ul className="sub-menu">
+                                    <Page />                            
+                                    </ul>
+                                </DropDown>
+                            </li>
+                            <li><Link to="/portfolio-two">Ürünlerimiz</Link></li>
+                            <li><Link to="/contact">Driverler</Link></li>
+                           
+                            <li><Link to="/contact">İletişim</Link></li>
+                        </ul>
+                        <span className={mobileToggle ? "mobile-menu mobile-menu-active" : "mobile-menu"} onClick={() => setMobileToggle(!mobileToggle)}>
+                            <span></span>
+                        </span>
                     </div>
                     <div className="header__area-box-sidebar d-block">
                         <div className="header__area-box-sidebar-popup-icon"> 
@@ -36,14 +71,7 @@ const HeaderThree = ({variant}) => {
                         </div>
                         <div className="header__area-menu">
                             <ul className="side__menu">
-                                <li className="menu-item-children">
-                                    <Link to="">Home</Link>
-                                    <Down>
-                                        <ul className="submenu">
-                                            <Home />
-                                        </ul>
-                                    </Down>
-                                </li>
+                            <li><Link to="/contact">Contact</Link></li>
                                 <li className="menu-item-children">
                                     <Link to="">Page</Link>
                                     <Down>

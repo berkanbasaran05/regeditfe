@@ -23,50 +23,26 @@ export default function Header({ variant }) {
             <div className="container custom-container">
                 <div className="header__area-box">
                     <div className="header__area-box-logo">
-                        <Link to='/'><img src="assets/img/logo-1.png" alt="" /></Link>
+                        <Link to='/'><img src="assets/img/logo-2.png" alt="" /></Link>
                     </div>
-                 {/**
+                 
                      <div className="header__area-box-main-menu one">
                         <ul className="mobile__menu" style={{ display: `${mobileToggle ? "block" : "none"}` }}>
-                            <li className="menu-item-has-children">
-                                <Link to="/">Home</Link>
-                                <DropDown>
-                                    <ul className="sub-menu">
-                                    <Home />
-                                    </ul>
-                                </DropDown>
+                        <li className="">
+                                <Link to="/">Anasayfa</Link>
+                               
                             </li>
-                            <li className="menu-item-has-children">
-                                <Link to="">Page</Link>
-                                <DropDown>
-                                    <ul className="sub-menu">
-                                    <Page />                            
-                                    </ul>
-                                </DropDown>
-                            </li>
-                            <li className="menu-item-has-children">
-                                <Link to="">Portfolio</Link>
-                                <DropDown>
-                                    <ul className="sub-menu">
-                                    <Portfolio />                        
-                                    </ul>
-                                </DropDown>
-                            </li>
-                            <li className="menu-item-has-children">
-                                <Link to="">News</Link>
-                                <DropDown>
-                                    <ul className="sub-menu">
-                                    <News />                       
-                                    </ul>
-                                </DropDown>
-                            </li>
-                            <li><Link to="/contact">Contact</Link></li>
+                           
+                            <li><Link to="/portfolio-two">Ürünlerimiz</Link></li>
+                            <li><Link to="/contact">Driverler</Link></li>
+                           
+                            <li><Link to="/contact">İletişim</Link></li>
                         </ul>
                         <span className={mobileToggle ? "mobile-menu mobile-menu-active" : "mobile-menu"} onClick={() => setMobileToggle(!mobileToggle)}>
                             <span></span>
                         </span>
                     </div>
-                  */}
+                
                     <div className="header__area-box-sidebar">
                         <div className="header__area-box-sidebar-popup-icon"> 
                             <span onClick={() => setSideHeaderToggle(!sideHeaderToggle)}><i className="fal fa-bars"></i></span> 
@@ -75,7 +51,7 @@ export default function Header({ variant }) {
                     <div className={sideHeaderToggle ? 'header__area-box-sidebar-popup active' : 'header__area-box-sidebar-popup'}>
                         <div className="sidebar-close-btn one" onClick={() => setSideHeaderToggle(!sideHeaderToggle)}> <i className="fal fa-times"></i> </div>
                         <div className="header__area-box-sidebar-popup-logo">
-                            <Link to='/'><img src="assets/img/logo-1.png" alt="" /></Link>
+                            <Link to='/'><img src="assets/img/logo-2.png" alt="" /></Link>
                         </div>
                         <p>RegeditBilisim | Sektörün tüm ihtiyacı.</p>
                         <div className="header__area-box-sidebar-popup-contact">

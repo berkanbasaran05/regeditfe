@@ -18,7 +18,7 @@ export const Page = () => (
 export const Portfolio = () => (
     <Fragment>
     <li><Link to="/portfolio">Portfolio 01</Link></li>
-    <li><Link to="/portfolio-two">Portfolio 02</Link></li>
+    <li><Link to="/portfolio-two">Ürünlerimiz</Link></li>
     <li><Link to="/portfolio-three">Portfolio 03</Link></li>
     <li><Link to="/portfolio-details">Portfolio Details 01</Link></li>
     <li><Link to="/portfolio-details-two">Portfolio Details 02</Link></li>

@@ -37,7 +37,7 @@ Services
             &::after {
                 content: '';
                 position: absolute;
-                background: $primary-color-1;
+                background: $primary-color;
                 width: 0;
                 height: 0;
                 border-radius: 50%;
@@ -68,7 +68,7 @@ Services
                 a {
                     transition: all .4s ease-out 0s;
                     &:hover {
-                        color: $primary-color-1;
+                        color: $primary-color;
                     }
                 }
             }

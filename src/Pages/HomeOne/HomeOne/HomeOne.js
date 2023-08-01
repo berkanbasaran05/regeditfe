@@ -15,13 +15,13 @@ const HomeOne = () => {
         <>
             <HeaderOne></HeaderOne>
             <Banner></Banner>
-            {/**
+      
              <Features></Features>
             <Services></Services>
             <Video bannerBg={bannerBg}></Video>
             <Work></Work> 
              
-             */}
+             
             <FooterOne></FooterOne>
         </>
     );
