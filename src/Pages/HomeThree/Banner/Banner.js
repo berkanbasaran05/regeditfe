@@ -9,7 +9,7 @@ const Banner = () => {
                     <div className="col-xl-12">
                         <div className="banner__area-three-content">
                             <h1>Regedit <span>Bilisim</span></h1>
-                             <Link className="theme-btn-1" to="/contact">Ürünleri Keşfet <i className="fal fa-long-arrow-right"></i></Link> 
+                             <Link className="theme-btn-1" to="/portfolio-two">Ürünleri Keşfet <i className="fal fa-long-arrow-right"></i></Link> 
                         </div>
                     </div>
                 </div>
