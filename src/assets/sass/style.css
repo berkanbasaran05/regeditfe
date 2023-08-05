@@ -433,13 +433,29 @@ button.scroll-to-top svg {
 Preloader CSS
 ========================================================================== */
 .spinner {
-  width: 80px;
-  height: 80px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 100px;
+  line-height: 150px;
+  width: 2000px;
+  height: 100px;
   position: relative;
-  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
 }
 
-.double-bounce1,
+@media (max-width: 767px) {
+  .spinner {
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    display: flex;
+    font-size: 20px;
+    line-height: 150px;
+    height: 100px;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+  }
+}
 .double-bounce2 {
   width: 100%;
   height: 100%;
@@ -468,6 +484,7 @@ Preloader CSS
 }
 .theme-loader {
   position: fixed;
+  display: flex;
   width: 100%;
   height: 100%;
   background: #030404;
@@ -475,10 +492,25 @@ Preloader CSS
 }
 
 .theme-loader .spinner {
-  left: 50%;
+  left: 25%;
   top: 50%;
-  margin-left: -40px;
+  justify-content: center;
   margin-top: -40px;
+}
+
+.preload-text {
+  width: 500px;
+  margin-left: 500px;
+  font-size: 120px;
+  line-height: 80px;
+  text-decoration: line-through;
+  font-family: "Ubuntu", sans-serif;
+  text-align: left;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 1.5px;
+  justify-content: center;
+  align-items: center;
+  white-space: nowrap;
 }
 
 /*==========================================================================
