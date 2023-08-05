@@ -9,7 +9,12 @@ const PortfolioTwo = () => {
     return (
         <>
         <HeaderOne></HeaderOne>
-        <div className="portfolio__column-two section-padding">
+        
+        <div className="portfolio__column-two section-padding pt-12">
+        <div className="contact__area-title flex mx-auto pl-12 justify-center flex-col mb-12">
+                            <span className="subtitle">Ürünlerimiz</span>
+                            <h2>Ürünlerimizi İnceleyin</h2> 
+                        </div>
             <div className="container">
                 <div className="row"> 
                     <div className="col-xl-6 col-md-6 mb-30">
