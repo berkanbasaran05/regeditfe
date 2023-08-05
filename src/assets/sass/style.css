@@ -498,21 +498,6 @@ Preloader CSS
   margin-top: -40px;
 }
 
-.preload-text {
-  width: 500px;
-  margin-left: 500px;
-  font-size: 120px;
-  line-height: 80px;
-  text-decoration: line-through;
-  font-family: "Ubuntu", sans-serif;
-  text-align: left;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 1.5px;
-  justify-content: center;
-  align-items: center;
-  white-space: nowrap;
-}
-
 /*==========================================================================
 Video Animation CSS
 ==========================================================================*/
@@ -2657,6 +2642,7 @@ Banner Three
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
+  background-size: auto;
 }
 .banner__area-three-content {
   text-align: center;
@@ -5240,7 +5226,7 @@ Menu Bar
 .header__sticky {
   width: 100%;
   z-index: 999;
-  transition: all 0.4s ease;
+  transition: all 2s ease;
 }
 .header__sticky-active {
   position: fixed !important;

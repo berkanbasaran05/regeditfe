@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const Banner = () => {
     return (
-        <>
+        <section>
         <div className="banner__area-three" style={{backgroundImage: `url('assets/img/cashier-bg.jpg')`}}>
             <div className="container">
                 <div className="row">
@@ -30,7 +30,7 @@ const Banner = () => {
             </div>
         </div>
         
-        </>
+        </section>
         
     );
 };
