@@ -5,7 +5,7 @@ import { pageTitle } from '../PageTitle';
 import HeaderOne from '../Header/HeaderOne';
 
 const PortfolioTwo = () => {
-    pageTitle('Portfolio Two');
+    pageTitle('Ürünlerimiz');
     return (
         <>
         <HeaderOne></HeaderOne>
