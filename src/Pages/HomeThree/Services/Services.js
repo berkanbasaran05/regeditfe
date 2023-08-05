@@ -57,13 +57,13 @@ const Services = () => {
                             <div className="services__area-item"> 
                                 <span>{item.batch}</span>
                                 <div className="services__area-item-icon">
-                                    <img src={item.imgTwo} alt="" />
-                                    <div className="services__area-item-icon-one">
+                                    <img src={item.imgTwo} className='ml-6 mt-4' alt="" />
+                                    <div className="services__area-item-icon-one mt-4 ">
                                         <img src={item.imgOne} alt="" />
                                     </div>
                                 </div>
                                 <div className="services__area-item-content">
-                                    <h4><Link to="/services-details">{item.title}</Link></h4>
+                                    <h4><Link to="/">{item.title}</Link></h4>
                                     <p>{item.description}</p>
                                 </div>
                             </div>
