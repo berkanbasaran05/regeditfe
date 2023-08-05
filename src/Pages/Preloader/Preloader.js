@@ -19,14 +19,14 @@ const Preloader = () => {
              initial={{
                 opacity:0,
                 y:-600,
-                scale:0,
+               
                 rotateX:180
             }}
             animate={{
                 y:0,
                 opacity:1,
                 rotateX:[180,0],
-                scale:[0.5,0.8,1]
+                
             }}
             transition={{
                 duration:2.5
