@@ -34,7 +34,7 @@ const Preloader = () => {
             transition={{
                 duration:2.5
             }}
-            src='assets/img/rege2.png' className='h-1/2 w-full'></motion.img>
+            src='assets/img/rege2.png'></motion.img>
             
             <motion.span 
            initial={{
