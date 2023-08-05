@@ -49,7 +49,7 @@ const Preloader = () => {
         transition={{
             duration:1.5
         }}
-            className=' flex text-[72px]  font-latin font-bold bg-black mx-auto h-full top-12 w-full items-center justify-center'>{text}</motion.span>
+            className='  hidden md:flex  md:text-[72px]  font-latin font-bold bg-black mx-auto h-full top-12 w-full items-center justify-center'>{text}</motion.span>
             
             </div>
                 
