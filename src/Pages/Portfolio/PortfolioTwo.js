@@ -11,7 +11,7 @@ const PortfolioTwo = () => {
         <HeaderOne></HeaderOne>
         
         <div className="portfolio__column-two section-padding pt-12">
-        <div className="contact__area-title flex mx-auto pl-12 justify-center flex-col mb-12">
+        <div className="contact__area-title flex mx-auto pl-24 justify-center flex-col mb-12">
                             <span className="subtitle">Ürünlerimiz</span>
                             <h2>Ürünlerimizi İnceleyin</h2> 
                         </div>
