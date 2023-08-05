@@ -14,7 +14,7 @@ const Preloader = () => {
     return (
         <div className="theme-loader text-center mx-auto mr-72">
             
-            <div className='flex h-full justify-center flex-col md:flex-row'>
+            <div className='flex h-full w-full justify-center flex-col md:flex-row'>
             <motion.img 
              initial={{
                 opacity:0,
